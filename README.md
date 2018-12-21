@@ -1,1 +1,1 @@
-# Context-Sensitive-Grammar-Primes
+# Context Sensitive Grammar For Prime Numbers
