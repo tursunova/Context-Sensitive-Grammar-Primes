@@ -2,7 +2,9 @@
 ## Code hint: just run 'main.cpp'
 ### Non-terminals: (S), (Q), (a), (b), (a+), (b+), (-#), (a-), (b-), (a*), (b*), (b0), (0c), (a.), (b.), (.c)
 ### Terminals: (#), (t)
+### Axiom: A
 ### Rules:
+0.  (A) -> (#)(S)(#)
 1.  (S) -> (a)(Q)
 2.  (Q) -> (b)(Q)
 3.  (Q) -> (b+)
@@ -32,3 +34,8 @@
 27. (a.) -> (a*)
 28. (a+)(#) -> (t)(#)
 29. (a)(t) -> (t)(t)
+
+| Prime | Derivation length|
+| ----- | -----------------|
+| 2 | 11 |
+| 3 | 36 |
