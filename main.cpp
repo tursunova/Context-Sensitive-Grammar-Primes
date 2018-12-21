@@ -82,7 +82,7 @@ int main() {
     int n;
     rules();
 
-    freopen("example_derivation_11.txt", "w", stdout);
+    //freopen("example_derivation_11.txt", "w", stdout);
 
     cin>>n;
 
