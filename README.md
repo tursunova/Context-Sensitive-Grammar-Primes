@@ -1,5 +1,4 @@
-# Context Sensitive Grammar For Prime Numbers
-## Code hint: just run 'main.cpp'
+# Noncontracting Grammar For Prime Numbers
 ### Non-terminals: (S), (Q), (a), (b), (a+), (b+), (-#), (a-), (b-), (a*), (b*), (b0), (0c), (a.), (b.), (.c)
 ### Terminals: (#), (t)
 ### Axiom: A
